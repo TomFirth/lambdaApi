@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "0a3c340a-d3ca-4149-bd84-bde57ea76d92",
+		"name": "ClickDealer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://t68r539rb9.execute-api.us-east-1.amazonaws.com/dev/vehicle?registration=AB22 ABC&registrationDate=23/1/22&Make=Ford&Model=Fiesta",
+					"protocol": "https",
+					"host": [
+						"t68r539rb9",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"vehicle"
+					],
+					"query": [
+						{
+							"key": "registration",
+							"value": "AB22 ABC"
+						},
+						{
+							"key": "registrationDate",
+							"value": "23/1/22"
+						},
+						{
+							"key": "Make",
+							"value": "Ford"
+						},
+						{
+							"key": "Model",
+							"value": "Fiesta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://t68r539rb9.execute-api.us-east-1.amazonaws.com/dev/vehicle",
+					"protocol": "https",
+					"host": [
+						"t68r539rb9",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"vehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read One",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://t68r539rb9.execute-api.us-east-1.amazonaws.com/dev/vehicle?registration=AB22 ABC",
+					"protocol": "https",
+					"host": [
+						"t68r539rb9",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"vehicle"
+					],
+					"query": [
+						{
+							"key": "registration",
+							"value": "AB22 ABC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://t68r539rb9.execute-api.us-east-1.amazonaws.com/dev/vehicle?registration&registrationDate&Make&Model",
+					"protocol": "https",
+					"host": [
+						"t68r539rb9",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"vehicle"
+					],
+					"query": [
+						{
+							"key": "registration",
+							"value": null
+						},
+						{
+							"key": "registrationDate",
+							"value": null
+						},
+						{
+							"key": "Make",
+							"value": null
+						},
+						{
+							"key": "Model",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://t68r539rb9.execute-api.us-east-1.amazonaws.com/dev/vehicle?registration",
+					"protocol": "https",
+					"host": [
+						"t68r539rb9",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"vehicle"
+					],
+					"query": [
+						{
+							"key": "registration",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
