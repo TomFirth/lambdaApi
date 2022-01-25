@@ -1,6 +1,5 @@
-# Clickdealer technical Test
-Technical application for Javascript Developer.
-`ClickDealer Serverless CRUD API`
+# AWS Lambda crud api
+`Serverless CRUD API`
 
 [x] Servless Framework/AWS Lambda CRUD API
 [x] Validation
